@@ -1,5 +1,5 @@
 .cabecalho {
-    color: #FFF;
+    color: var(--branco);
 
     width: 100%;
 
@@ -12,20 +12,20 @@
     padding-top: .75rem;
     padding-bottom: .75rem;
 
-    border-bottom: 1px solid #103D4A;
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);
 
     position: absolute;
 }
 
-.cabecalho__logo {
+.cabecalho-logo {
     margin-bottom: 1rem;
 }
 
-.cabecalho__navegacao {
+.cabecalho-navegacao {
     text-align: center;
 }
 
-.cabecalho__link {
+.cabecalho-link {
     font-size: 1.1rem;
 
     display: inline-block;

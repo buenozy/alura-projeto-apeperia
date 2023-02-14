@@ -3,17 +3,17 @@
     flex-direction: column;
     align-items: center;
 
-    color: #FFF;
+    color: var(--branco);
     text-align: center;
     
-    background-color: #00161C;
+    background-color: var(--bg-chamada-mobile);
 
     padding-top: 12.25rem;
     padding-bottom: 2.5rem;
 }
 
-.chamada__titulo {
-    font-family: 'Montserrat', serif;
+.chamada-titulo {
+    font-family: var(--font-titulo);
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -21,13 +21,13 @@
     margin-bottom: 1.5rem;
 }
 
-.chamada__texto {
+.chamada-texto {
     font-size: 1.25rem;
     line-height: normal;
 
     margin: 0 auto 2.5rem;
 }
 
-.chamada__botao {
+.chamada-botao {
     width: 100%;
 }
