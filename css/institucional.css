@@ -47,3 +47,31 @@
 .institucional-video {
     width: 100vw;
 }
+
+@media screen and (min-width: 768px){
+    .institucional-contato-email {
+        display: inline-block;
+    }
+
+    .institucional-video {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .institucional-conteudo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .institucional-video {
+        align-self: flex-end;
+        width: 375px;
+    }
+
+    .institucional-contato-email {
+        display: block;
+    }
+}
